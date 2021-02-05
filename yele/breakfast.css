@@ -1,0 +1,53 @@
+
+h1
+{
+	display:block;  
+	font-weight: bolder; 
+	font-size:50px;
+	text-align:center;
+	text-decoration-line: underline;
+
+}
+breakfast_menu
+{  
+background-color: #B7FBFA;
+background-image: url("https://media2.giphy.com/media/MAdZ1rJB56yuwjT3yU/source.gif");  
+background-size: 10%;
+background-repeat: repeat;
+display:block;
+margin-right: 100px;
+}  
+
+name
+{ 
+font-weight: bolder; 
+font-size:25px; 
+background-color: #7299DD;  
+display:block;  
+color: Black;  
+text-align:left;
+margin-left: 100px; 
+}
+
+price, calories, description
+{  
+font-size:25px; 
+background-color: #AB72DD;  
+display:block;  
+color: Black;  
+text-align:right;
+margin-left: 100px; 
+
+}
+
+recipe
+{
+font-size:25px; 
+background-color: pink;  
+border-style: solid; 
+display:block;
+color: Black;  
+text-align:center;
+margin-left: 100px; 	
+}
+

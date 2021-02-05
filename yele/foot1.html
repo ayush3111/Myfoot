@@ -1,0 +1,157 @@
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <title>Fan Club Of Foothball</title>
+  <script>
+    function Alert() 
+    {
+      var person = prompt("Please enter your name");
+      if (person !="") {
+         document.getElementById("test").innerHTML=
+         alert("Hi"  + " " + person + " " + "Nice to meet you");
+
+      }
+      else
+      {
+        alert("Hey no input!");
+        
+      }
+      
+    }
+  </script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style type="text/css">
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border:2px solid white; 
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.fa {
+  padding: 17px;
+  font-size: 22px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
+ </head>
+
+
+
+ <body>
+  <form action="gallery.html" onAbout="return validateform"></form>
+  <header>
+    
+    <div class="main">
+      <ul>
+        <li class="active"><a href="">Home</a></li>
+        <li class="active"><a href="login.html">Login</a></li>
+        <li class="active"><a href="gallery1.html">Gallery</a></li>
+        <li class="active"><a href="aboutus.html" onclick="Alert()">About</a></li>
+        <li class="active"><a href="signin.html" >Sign in</a></li>
+
+      </ul>
+    </div>
+    <footer style="color: white; text-align: center;font-family: 'Ultra', serif; font-size: 35px;padding: 0px; clear:both; position: center;"></footer>
+
+
+<p>
+<div style="text-align: center;padding-top: 0px; ">
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/intent/tweet?via=wordpressdotcom&text=Home&url=https%3A%2F%2Fshopforseniors24967894.wordpress.com%2F" class="fa fa-twitter"></a>
+
+<a href="https://www.youtube.com/results?search_query=football+match" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/football/" class="fa fa-instagram"></a>
+<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+</div>
+</p>
+    <div class="tittle">
+      <h1>Goal</h1>
+      <h4>The latest football news and blogs from the Premiership, Championship, Serie A, La Liga & International Football.</h4><br>
+      <h4>This blog is developed by Ayush Solanki and Neel Solanki</h4>
+
+  </header>
+
+
+ 
+ </body>
+ </html>
